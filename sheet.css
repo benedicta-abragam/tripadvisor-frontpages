@@ -474,7 +474,10 @@
 .footer{
     gap: 5px;
 }
-.footer-right{
+.footer-right, .footer-sec__3{
     display: none;
+}
+.footer-sec{
+    justify-content: space-around;
 }
 }
