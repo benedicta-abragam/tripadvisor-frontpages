@@ -76,6 +76,7 @@
     border-right: solid #1f3d2c 1px;
     padding-right: 10px;
 }
+/* searchbar */
 .searchbar__title {
     font-size: 28px;
     text-align: center;
@@ -258,7 +259,7 @@
     color: #063418;
     display: flex;
     justify-content: space-between;
-    height: 480px;
+ 
     margin-top: 80px;
    
 }
@@ -322,7 +323,7 @@
 
 
 /* media for navbar, searchbar, block,recommended */
-@media screen and (max-width:580px) {
+@media screen and (max-width:546px) {
     body{
         font-size: 14px;
     }
@@ -345,7 +346,6 @@
         top: 0;
         background-color: white;
         width: 100%;
-        height: 130px;
     }
     
     .navbar__title{
@@ -390,7 +390,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 450px;
+       
     }
     .block__images{
         width: 90%;
@@ -411,6 +411,10 @@
     }
     .block__desc p{
         font-size:15px ;
+    }
+    .block__desc button{
+        font-size: 10px;
+        padding: 9px;
     }
 
      /* recommended */
