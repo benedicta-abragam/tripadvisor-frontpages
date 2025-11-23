@@ -322,7 +322,7 @@
 
 
 /* media for navbar, searchbar, block,recommended */
-@media screen and (max-width:600px) {
+@media screen and (max-width:546px) {
     body{
         font-size: 14px;
     }
@@ -339,6 +339,13 @@
         gap: 10px;
         padding: 10px;
         position: relative;
+    }
+    .navbar{
+        position: sticky;
+        top: 0;
+        background-color: white;
+        width: 100%;
+        height: 130px;
     }
     
     .navbar__title{
@@ -407,6 +414,9 @@
     }
 
      /* recommended */
+     .recom{
+        margin-top: 20px;
+     }
     .recom__title{
          font-size: 15px;
     }
@@ -426,23 +436,32 @@
     }
 
     /* explore */
+    .explore{
+        margin-top: 40px;
+    }
     .explore__pic{
+        margin-top: 0;
         padding-left: 0;
         width: 100%;
         justify-content: space-between;
-        flex-wrap: wrap;
-        margin-top: 0px;
+        flex-wrap: wrap; 
     }
-    .explore__title2{
-        margin-top: 20px;
-    }
+   
     .explore__pic__2{
         justify-content: center;
         width: 40%;
-        padding-top: 5px;
     }
     .explore__pic__3{
         display: none;
+    }
+    .explore__pic__2 img{
+        margin-top: 0;
+        flex-wrap: wrap;
+        height: 50%;
+    }
+     .explore__title2{
+        margin-top: 0;
+        padding-top: 0;
     }
 /* block2 */
     .block2{
